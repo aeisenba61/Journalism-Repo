@@ -32,6 +32,34 @@
   opacity: 0.7;
 }
 
+.x-axis path{
+  color: #05386B;
+  stroke: #05386B;
+}
+
+.y-axis path{
+  color: #05386B;
+  stroke: #05386B;
+}
+
+.axis-text.inactive.yLabel{
+  color: #05386B;
+}
+
+.axis-text.active.yLabel{
+  font-weight: bold;
+  color: #05386B;
+}
+
+.axis-text.inactive.xLabel{
+  color: #05386B;
+}
+
+.axis-text.active.xLabel{
+  font-weight: bold;
+  color: #05386B;
+}
+
 /* Creates a small triangle extender for the tooltip */
 /*.tooltip:after {
   box-sizing: border-box;
@@ -52,15 +80,6 @@
   left: 0;
 }*/
 
-.axis-text.active{
-	font-weight: bold;
-  color: #05386B;
-}
 
-.axisBlue path{
-  stroke: #05386B;
-}
 
-.axis-text.inactive{
-  color: #05386B;
-}
+
